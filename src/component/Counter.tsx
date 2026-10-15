@@ -14,6 +14,7 @@ function Counter() {
       <h1>Counter: {count}</h1>
       <button onClick={handelInc}>Increment</button>
       <button onClick={handelDec}>Decrement</button>
+      
     </div>
   );
 }
