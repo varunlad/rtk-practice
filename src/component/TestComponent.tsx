@@ -11,7 +11,7 @@ function MytestComponent({ name, optionalProp}: MytestComponentProps) {
         // Simulating an API call or some asynchronous operation
         setTimeout(() => {
             setTestState(["Item 1", "Item 2", "Item 3"]);
-        }, 1000);
+        }, 1000); 
     }, []);
     return (
         <div>
